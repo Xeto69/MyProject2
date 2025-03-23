@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery - Kapaja Small Beach</title>
+    <style>
+        /* Style for navigation links */
+        td a {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: underline;
+            display: block;
+            padding: 10px 30px;
+            color: black;
+        }
+
+        /* Style the navigation table */
+        .nav-table {
+            width: 80%;
+            height: 50px;
+            border-collapse: collapse;
+        }
+
+        /* Adjust table cells */
+        .nav-table td {
+            width: 25%;
+        }
+
+        /* Content Styling */
+        .content {
+            text-align: center;
+            font-size: 20px;
+            padding: 50px;
+        }
+
+        /* Gallery Grid */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #000;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<header></header>
+
+<!-- Navigation Table -->
+<table align="center" border="1" class="nav-table">
+<tr>
+    <td bgcolor="cyan" align="center"><a href="index.html">Home</a></td>  
+    <td bgcolor="cyan" align="center"><a href="about-us.html">About Us</a></td>  
+    <td bgcolor="cyan" align="center"><a href="contact-us.html">Contact Us</a></td>
+    <td bgcolor="cyan" align="center"><a href="gallery.html">Gallery</a></td>
+</tr>
+</table>
+
+<br><br><br>
+
+<!-- Gallery Section -->
+<div class="content">
+    <h1>Gallery</h1>
+    <p>Enjoy beautiful views of Kapaja Small Beach!</p>
+
+    <div class="gallery">
+        <img src="image1.jpg" alt="Beach View 1">
+        <img src="image2.jpg" alt="Beach View 2">
+        <img src="image3.jpg" alt="Beach View 3">
+        <img src="image4.jpg" alt="Beach View 4">
+    </div>
+</div>
+
+</body>
+</html>
