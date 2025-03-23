@@ -1,20 +1,26 @@
 <html>
-<head></head>
-<title>Kapaja Small Beach</title>
-<style>
-  /* Style for navigation links */
+<head>
+    <title>Kapaja Small Beach</title>
+    <style>
+        /* Style for navigation links */
         td a {
             font-size: 24px;  /* Bigger text */
             font-weight: bold;
             text-decoration: underline;  /* Underline effect */
             display: block;
-            padding: 15px;
+            padding: 10px 30px; /* More width, but not taller */
         }
 
         /* Style the navigation table */
         .nav-table {
-            width: 60%;
-            height: 60px;
+            width: 80%;  /* Makes tabs wider */
+            height: 50px; /* Keeps it from getting taller */
+            border-collapse: collapse;
+        }
+
+        /* Adjust table cells */
+        .nav-table td {
+            width: 25%; /* Each tab takes up equal space */
         }
 
         /* Ensure the image table takes up the full screen without overlapping */
@@ -41,7 +47,7 @@
 </header>
 
 <!-- Navigation Table -->
-<table align="center" border="1" width="300" height="50">
+<table align="center" border="1" class="nav-table">
 <tr>
     <td bgcolor="pink" align="center"><a href="test.html">Home</a></td>
     <td bgcolor="pink" align="center"><a href="About us.html">About Us</a></td>
@@ -52,8 +58,8 @@
 
 <br><br><br>
 
-<!-- Image Table -->
-<table align="center" border="1" class="image-table">
+<!-- Full-Screen Image Table -->
+<table class="image-table">
 <tr>
     <td align="center">
         <img src="banner1.jpg" class="full-width-image" alt="Banner Image">
